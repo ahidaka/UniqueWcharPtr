@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{99d99ef8-ba76-4f12-bcb5-8ac2628b46f5}</ProjectGuid>
-    <RootNamespace>Samples</RootNamespace>
+    <ProjectGuid>{a686d70f-bf13-4180-8b82-0c82d926650d}</ProjectGuid>
+    <RootNamespace>UniqueWcs</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Samples.cpp" />
+    <ClCompile Include="UniqueWcs.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,7 +5,7 @@
 
 #define NUM_SUB (50)
 
-int Sub(std::array<std::unique_ptr<WCHAR[]>, NUM_SUB> &Subs)
+int Sub(std::array<std::unique_ptr<WCHAR[]>, NUM_SUB>& Subs)
 {
     PWSTR pw;
 
